@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h2>Registro de Cliente</h2>
-        <form id="registerForm" action="#" method="POST">
+        <form action="/registrar" method="POST">
             <label for="nombre">Nombre completo:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -25,13 +25,5 @@
             <button type="submit">Registrarse</button>
         </form>
     </div>
-
-    <script>
-        document.getElementById("registerForm").addEventListener("submit", function(e) {
-            e.preventDefault();
-            alert("¡Registro enviado correctamente!");
-            this.reset();
-        });
-    </script>
 </body>
 </html>
