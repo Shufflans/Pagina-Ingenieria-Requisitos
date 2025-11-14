@@ -1,12 +1,12 @@
-ecommercedb_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g81d38579c27af3_ecommercedb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+dbpruebarequisitos_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=gbba27e6e862380_dbpruebarequisitos_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
 
-ecommercedb_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g81d38579c27af3_ecommercedb_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+dbpruebarequisitos_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=gbba27e6e862380_dbpruebarequisitos_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
 
-ecommercedb_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g81d38579c27af3_ecommercedb_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+dbpruebarequisitos_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=gbba27e6e862380_dbpruebarequisitos_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
 
-ecommercedb_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g81d38579c27af3_ecommercedb_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+dbpruebarequisitos_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=gbba27e6e862380_dbpruebarequisitos_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
 
-ecommercedb_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g81d38579c27af3_ecommercedb_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+dbpruebarequisitos_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=gbba27e6e862380_dbpruebarequisitos_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
 
 
 

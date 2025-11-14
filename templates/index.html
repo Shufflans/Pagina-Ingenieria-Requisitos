@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Cliente</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <div class="container">
         <h2>Registro de Cliente</h2>
         <form action="/registrar" method="POST">
-            <label for="nombre">Nombre completo:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <label for="pnombre">Nombre:</label>
+            <input type="text" id="pnombre" name="pnombre_usuario" required>
+
+            <label for="snombre">Segundo nombre (opcional):</label>
+            <input type="text" id="snombre" name="snombre_usuario">
+
+            <label for="papellido">Apellido paterno:</label>
+            <input type="text" id="papellido" name="papellido_usuario" required>
+
+            <label for="sapellido">Apellido materno (opcional):</label>
+            <input type="text" id="sapellido" name="sapellido_usuario">
 
             <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
+            <input type="email" id="correo" name="correo_usuario" required>
 
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion" required>
+            <label for="telefono">Teléfono (opcional):</label>
+            <input type="tel" id="telefono" name="nrotelefono_usuario">
 
             <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required>
+            <input type="password" id="contrasena" name="contraseña_hash" required>
 
             <button type="submit">Registrarse</button>
         </form>
+
     </div>
 </body>
 </html>
